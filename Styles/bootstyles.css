@@ -1,0 +1,68 @@
+body {
+  background-image: url("../images/img/negative-space-colorful-bokeh-abstract-14.jpg");
+}
+
+.nav_menu {
+  display: flex;
+  background-color: grey;
+  border: solid 2px black;
+  border-radius: 4px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.nav_menu li {
+  text-align: center;
+  padding: 5px;
+  flex-grow: 3;
+  list-style: none;
+}
+.nav_menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 27px;
+}
+.nav_menu li a:hover {
+  color: black;
+}
+
+.grid-item {
+  border: solid 6px black;
+  border-radius: 6px;
+  text-align: center;
+  margin: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.grid-item iframe {
+  height: 700px !important;
+}
+.grid-item div {
+  height: auto !important;
+}
+.grid-item h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: grey;
+  border: solid 2px black;
+  border-radius: 4px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.tab_info {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  margin-left: 25%;
+  margin-right: 25%;
+}

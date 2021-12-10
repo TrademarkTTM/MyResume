@@ -1,0 +1,62 @@
+.Resume_Information_Header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.Resume_Information_Item {
+  display: inline;
+}
+
+.Resume_Education_Header_Item {
+  display: inline;
+}
+
+.Resume_Workexp_Header_Item {
+  display: inline;
+}
+
+.Resume_Skills_Header_Item {
+  list-style: none;
+  font-weight: bold;
+}
+.Resume_Skills_Header_Item p {
+  font-weight: none;
+}
+
+#Personal_Photo {
+  height: 200px;
+  width: 300px;
+  border-radius: 6px;
+}
+
+/*This is the css for the index page */
+.home_div h3 {
+  text-align: center;
+}
+.home_div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#BYU_Image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*This is the overwritten css */
+.page-heading h1 {
+  -webkit-text-stroke: 3px black;
+}
+.site-heading h1 {
+  -webkit-text-stroke: 3px black;
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
